@@ -34,19 +34,23 @@ credit-risk-model/
 ├── prediction_helper.py # Backend logic (scaling, encoding, prediction)
 ├── README.md # This file
 
-## How to Run Locally
 
-### 1. Clone the repository
+---
+
+## Run This Locally
+
 ```bash
+# 1. Clone the repository
 git clone https://github.com/your-username/credit-risk-model.git
 cd credit-risk-model
 
-### 2. Create a virtual environment
+# 2. Create a virtual environment (optional but recommended)
 python -m venv venv
-source venv/bin/activate    # On Windows: venv\Scripts\activate
+source venv/bin/activate          # Windows: venv\Scripts\activate
 
-### 3. Install dependencies
+# 3. Install dependencies
 pip install -r requirements.txt
 
-### 4. Run Streamlit app
+# 4. Run the Streamlit app
 streamlit run app.py
+
